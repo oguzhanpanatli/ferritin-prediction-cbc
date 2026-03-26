@@ -22,5 +22,15 @@ To address the architectural complexities of the predictive models for both clas
 
 *(Note: Due to patient privacy and ethical restrictions, the raw clinical dataset is not publicly shared in this repository.)*
 
+## 📊 Dataset Characteristics
+Although the raw clinical dataset cannot be shared publicly due to patient privacy and ethical regulations, the models were developed and evaluated using a comprehensive dataset with the following properties:
+
+* **Total Observations:** 7,200 patient records
+* **Total Variables:** 11 features (9 numeric, 2 categorical)
+* **Independent Variables (9 Predictors):** * Age, Gender, HGB (12-16), MCV (81-101), HCT (36-44), WBC (4.5-10), MPV (9-12), MCH (27-35), RDW-CV (11.5-14.5)
+* **Dependent Variables (2 Targets):**
+  * `Ferritin Level`: Categorical target used for the binary classification task (Low vs. Normal).
+  * `Ferritin (30-400)`: Continuous target used for the regression task.
+
 ## ⚙️ How to Run
 You can easily review or run the `.ipynb` files by importing them directly into Google Colab or Jupyter Notebook.
