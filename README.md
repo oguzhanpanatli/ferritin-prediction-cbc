@@ -1,6 +1,3 @@
-# ferritin-prediction-cbc
-Source code for Beyond Prediction: Explainable Machine Learning for Ferritin Estimation from Complete Blood Count
-
 # CBC-Based Ferritin Estimation using Machine Learning
 
 This repository contains the official Python implementation and Jupyter Notebooks for the data preprocessing, hyperparameter optimization, and model training processes associated with our manuscript on predicting continuous and binary ferritin levels using Complete Blood Count (CBC) data.
@@ -24,3 +21,18 @@ To address the architectural complexities of the predictive models for both clas
 
 ## ⚙️ How to Run
 You can easily review or run the `.ipynb` files by importing them directly into Google Colab or Jupyter Notebook.
+
+## 📄 Publication
+
+This repository contains the source code associated with the following published article:
+
+**Us, R.B., Panatli, O., Bozkürk, M.B. et al.**  
+*Beyond prediction: explainable machine learning for ferritin estimation from complete blood count.*  
+**BMC Medical Informatics and Decision Making, 26, 291 (2026).**  
+https://doi.org/10.1186/s12911-026-03601-2
+
+## 📚 Citation
+
+If you use this code or methodology, please cite:
+
+Us, R.B., Panatli, O., Bozkürk, M.B. et al. Beyond prediction: explainable machine learning for ferritin estimation from complete blood count. BMC Med Inform Decis Mak 26, 291 (2026). https://doi.org/10.1186/s12911-026-03601-2
